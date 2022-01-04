@@ -146,19 +146,14 @@ class Game
       end
     end
 
-
     playerid_havingMax_score.each do |player|
       puts " the player who won is #{player+1}"
     end
 
   end
 
-
-
 end
 
 puts "enter the number of players"
 no_of_players = gets.chomp.to_i
 Game.new(no_of_players).start()
-
-
